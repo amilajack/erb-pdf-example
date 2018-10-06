@@ -47,6 +47,11 @@ export default {
             cacheDirectory: true
           }
         }
+      },
+      // Pdf
+      {
+        test: /\.pdf(\?v=\d+\.\d+\.\d+)?$/,
+        use: 'file-loader'
       }
     ]
   },
